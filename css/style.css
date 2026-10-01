@@ -1,0 +1,45 @@
+                          /*******
+                            MAIN STYLE
+                            *******/
+         /*TARGET A CLASS*/
+         .countainer {
+            /** Makes sur the eleement doesn'tget wider than 900px*/
+            max-width: 900px;
+            /** Centers the element in its parent*/
+            margin: 0 auto;
+
+            background-color: aquamarine;
+         }
+                 
+                             /********      
+                             MACKGROUND IMAGES
+                              *******/
+    
+     /* CSS background images should only be used for decorative imag
+     images that are not important for understanding the content of the page **/
+
+     
+     
+     .back-sizer {
+        height: 500px;
+
+       /** the .../ tellls the browser to go out of the css folder firsst, then back 
+       into the images folder**/
+        
+        background-image:url("../images/puppy-full.jpg");
+        /**background size auto 500px; */
+        /** two values means width and height only  fix one values,
+        so the other dimension automatically  resizes   in ratio **/
+
+        /** certain forces th image to  resize so it is entirely inside the element 
+        cover forces the image to resize so the entire element is covered, even if part of the image is cut off */
+        background-size: cover;
+
+
+        /* background posistion lets you move the image so the part you want is
+        showing (so  long as there is part of the image tha is cut off) */
+        background-position:  right center;
+
+        /* if you are worry about repeat , you can turn it off ... */
+        background-repeat: no-repeat;
+     }
